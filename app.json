@@ -18,6 +18,10 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.READ_CONTACTS",
+        "android.permission.WRITE_CONTACTS"
+      ],
       "package": "com.deviceapi.app"
     },
     "web": {
@@ -34,6 +38,12 @@
             "image": "./assets/images/splash-icon.png",
             "imageWidth": 76
           }
+        }
+      ],
+      [
+        "expo-contacts",
+        {
+         "contactsPermission":"Allow $(PRODUCT_NAME) to access your contacts."
         }
       ]
     ],

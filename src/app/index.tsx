@@ -5,14 +5,15 @@ import { Text, View, StyleSheet } from "react-native";
 import * as Battery from "expo-battery";
 import { useState } from "react";
 import ExpoHaptics from "@/components/ExpoHaptics";
+import ExpoContacts from "@/components/ExpoContacts";
 
 export default function Index() {
 
 
   return (
     <>
-    
-     <ExpoHaptics/>
+
+     <ExpoContacts/>
     </>
   );
 }
