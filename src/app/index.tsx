@@ -1,10 +1,12 @@
+import ExpoNetwork from "@/components/ExpoNetwork";
 import MediaPhotosLibrary from "@/components/MediaPhotosLibrary";
 import { Text, View, StyleSheet } from "react-native";
 
 export default function Index() {
+  
   return (
     <>
-     <MediaPhotosLibrary />
+     <ExpoNetwork/>
     </>
   );
 }
